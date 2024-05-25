@@ -2,7 +2,7 @@
 - name: Install Jenkins
   hosts: jenkins-server
   become: yes
-  become_user: yes
+  become_user: root
   tasks:
   - name: yum update
     yum:
