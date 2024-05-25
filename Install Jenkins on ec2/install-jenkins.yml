@@ -16,7 +16,7 @@
 
   - name: import a key file from jenkins-ci
     ansible.builtin.rpm_key:
-      state: yes
+      state: present
       key: https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 
   - name: yum update
