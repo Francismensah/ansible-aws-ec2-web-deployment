@@ -25,7 +25,7 @@
       state: latest
 
   - name: install java
-    shell: dnf install java-17-amazon-corretto -y
+    shell: amazon-linux-extras install java-openjdk11 -y
 
   - name: install jenkins
     yum:
