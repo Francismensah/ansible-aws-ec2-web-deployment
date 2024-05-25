@@ -1,6 +1,6 @@
 # Ansible Project Readme
 
-This project sets up and deploys a simple web application using Ansible. The architecture diagram is located in the root directory of the project.
+This project sets up and deploys a simple web application using Ansible.
 
 ## Architecture Diagram
 
