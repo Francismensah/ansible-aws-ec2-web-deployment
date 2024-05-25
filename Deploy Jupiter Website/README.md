@@ -20,7 +20,7 @@ The `inventory` file included specifies the IP addresses of the target EC2 insta
 
 **Playbook:**
 
-The `playbook.yml` file defines the deployment tasks:
+The `deploy-jupiter.yml` file defines the deployment tasks:
 
 1. **Update Packages:** Updates all installed packages on the target instances using `yum`.
 2. **Install Apache Server:** Installs the Apache web server using `yum`.
@@ -41,5 +41,5 @@ The `playbook.yml` file defines the deployment tasks:
 To deploy the Jupiter website, run the following command:
 
 ```
-ansible-playbook playbook.yml
+ansible-playbook deploy-jupiter.yml
 ```
