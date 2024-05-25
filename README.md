@@ -1,4 +1,4 @@
-# Ansible Project Readme
+# Ansible Project
 
 This project sets up and deploys a simple web application using Ansible.
 
