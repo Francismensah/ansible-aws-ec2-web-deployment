@@ -4,7 +4,7 @@ This project sets up and deploys a simple web application using Ansible. The arc
 
 ## Architecture Diagram
 
-![Architecture Diagram](./architecture_diagram.jpg)
+![Architecture Diagram](./Reference%20Architecture.jpg)
 
 ## Steps
 
